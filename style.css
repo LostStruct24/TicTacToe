@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to left, #aad4f7,  #e8ecec);
+}
+
+h3 {
+    font-family: 'Potta One', cursive;
+    color: rgb(61, 90, 114);
+    text-shadow: 0 2px rgb(181, 207, 187);
+    font-size: 20px;
+    margin-left: 30%;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 28%;
+    width: 610px;
+    height: 610px;
+    background-color: rgb(125, 167, 170);
+    transform: scale(0.8);
+}
+
+.grid div {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin-bottom: 5px;
+}
+
+.PlayerX {
+    background-image: url('img/x.png');
+}
+
+.Player0 {
+    background-image: url('img/o.png');
+}
